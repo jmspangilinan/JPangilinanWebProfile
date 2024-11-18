@@ -1,0 +1,172 @@
+nav {
+	background-color: rebeccapurple;
+}
+
+nav a {
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 21.94px;
+	text-align: center;
+}
+
+body{
+	background-color: lightgoldenrodyellow;
+}
+
+#profilePicture{
+	width: 300px;
+	height: 300px;
+
+}
+
+#about {
+	background-color: gray;
+}
+
+#about-me-img{
+	width: 100%;
+	max-width: 500px; /* Increased width */
+	height: auto;
+	border-radius: 10px;	
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.about-content {
+
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+}
+.about-content ul {
+	display: inline-block;
+	text-align: left; 
+}
+
+#tool-section{
+	background-color: rebeccapurple;
+}
+
+
+
+/*  WORK EXPERIENCE START   */
+
+#experience{
+	background-color: gray;
+	border-radius: 10px;
+
+	padding: 5px;
+}
+
+.work-experience {
+	/*    border-left: 2px solid #b0bec5;*/
+	padding-left: 20px;
+	position: relative;
+}
+.work-experience: {
+	content: "";
+	width: 10px;
+	height: 10px;
+	background-color: #607d8b;
+	border-radius: 50%;
+	position: absolute;
+	left: -6px;
+	top: 0;
+}
+.experience-header {
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+.experience-company {
+	font-size: 1rem;
+	color: #607d8b;
+	font-weight: bold;
+	float: right;
+}
+.badge {
+	font-size: 0.9rem;
+	background-color: #cfd8dc;
+	color: #37474f;
+	margin-right: 5px;
+}
+
+#skills{
+	background-color: rebeccapurple;
+	border-radius: 10px;
+	color: white;
+}
+
+/*  WORK EXPERIENCE END   */
+
+#peek-container{
+	background-color: rebeccapurple;
+	border-radius: 10px;
+	color: white;
+}
+
+#gallery{
+	padding-top: 30px;
+}
+
+/* CARDS START */
+
+#cards{
+	text-align: justify;
+	border-radius: 10px;
+
+}
+
+/* CARDS END */	
+
+#contact{
+	background-color: ;
+
+}
+
+.tools-section {
+	background-color: rebeccapurple; 
+	padding: 40px;
+	text-align: center;
+}
+
+.contact-section {
+	background-color: gray;
+	padding: 40px;
+}
+
+.form-control {
+	margin-bottom: 20px;
+}
+
+.btn-submit {
+	width: 100%;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.container {
+	max-width: 100%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.carousel-inner img {
+	max-width: 100%;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.col {
+	padding-left: 0;
+	padding-right: 0;
+}
+
