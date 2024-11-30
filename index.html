@@ -32,6 +32,7 @@
 					<div class="navbar-nav text-center">
 						<a class="nav-link" href="#landing">HOME</a>
 						<a class="nav-link" href="#aboutMe">ABOUT ME</a>
+						<a class="nav-link" href="#projectPortfolio">PROJECTS PORTFOLIO</a>
 						<a class="nav-link" href="#peek">PEEK INTO MY LIFE</a>
 						<a class="nav-link" href="#contact">CONTACT</a>
 					</div>
@@ -123,7 +124,7 @@
 
 		<!-- WORK EXPERIENCE START -->
 
-		<div class="container mt-2 mb-5">
+		<div class="container mt-2 mb-1">
 			<div class="row">
 				<!-- Work Experience Column -->
 				<div id="experience" class="col-12 col-md-8">
@@ -180,14 +181,14 @@
 
 						<div class="mb-3">
 							<strong>Frontend:</strong>
-							<p>HTML, CSS, Bootstrap, Git, GitHub</p>
+							<p>HTML, CSS, Bootstrap, Tailwind, Git, GitHub</p>
 						</div>
 
 						<br>
 
 						<div class="mb-3">
 							<strong>Backend:</strong>
-							<p>JavaScript, Java, Python, C++, Node.js, Express.js, MongoDB, Postman, RESTful API</p>
+							<p>JavaScript, Java, Python, C++, Node.js, Express.js, Django, MongoDB, Postman, RESTful API</p>
 						</div>
 
 						<br>
@@ -213,14 +214,198 @@
 		<br>
 		<br>
 
+
+
+
+		<!-- PROJECT SAMPLE START -->
+
+		<section id="projectPortfolio" class="container-fluid pb-5">
+		<h1 class="text-center mt-3 mb-4">Project Portfolio</h1>
+		<!-- Chatty Carousel -->
+		<div class="pb-4">
+		<div class="card mb-3 container-fluid" style="max-width: 1240px;">
+			<div class="row g-0">
+				<div class="col-md-6">
+					<div id="carouselChatty" class="carousel slide">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselChatty" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselChatty" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselChatty" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="./images/chatty1.png" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="./images/chatty2.png" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="./images/chatty3.png" class="d-block w-100" alt="...">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselChatty" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselChatty" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="card-body">
+						<h5 class="card-title">Real-Time Chat Application</h5>
+						<p class="card-text">
+							I developed a real-time chat application featuring sign-up and login pages. After logging in, users are directed to the Home page, where they can view online users and send text messages and images in real-time. On the Profile page, users can update their profile picture and customize the theme through the settings.</p>
+
+
+						<div class="mb-4">
+							<h6 class="font-weight-bold mt-3">Technologies used:</h6>
+							<span class="badge">React.js</span>
+							<span class="badge">Tailwind</span>
+							<span class="badge">Zustand</span>
+							<span class="badge">DaisyUI</span>
+							<span class="badge">Node.js</span>
+							<span class="badge">Express.js</span>
+							<span class="badge">MongoDB</span>
+							<span class="badge">Socket.io</span>
+						</div>
+
+						<!-- Buttons Section -->
+						<div class="d-flex gap-3">
+							<a href="https://chattyapplication.onrender.com" class="btn btn-primary" target="_blank">View Demo</a>
+							<a href="https://github.com/jmspangilinan/chattyApplication" class="btn btn-secondary" target="_blank">View Repository</a>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!-- Weather Carousel -->
+		<div class="pb-4">
+		<div class="card mb-3 container-fluid" style="max-width: 1240px;">
+			<div class="row g-0 d-flex flex-column-reverse flex-md-row">
+				<div class="col-md-6">
+					<div class="card-body">
+						<h5 class="card-title">Weather Application</h5>
+						<p class="card-text">
+							I created a simple Weather Application using Django, with the help of Open Weather API and City Image API. Users can enter a desired city to view its weather conditions. It displays the Celsius temperature, the weather status, and the current date. Additionally, it shows an image of the city powered by the City Image API.
+						</p>
+					</div>
+					<div class="mb-4">
+						<h6 class="font-weight-bold mt-3">Technologies used:</h6>
+						<span class="badge">Python</span>
+						<span class="badge">Django</span>
+						<span class="badge">Open Weather API</span>
+						<span class="badge">Google Search Engine</span>
+					</div>
+					<div class="d-flex gap-3">
+						<a href="https://github.com/jmspangilinan/weatherApplication" class="btn btn-secondary" target="_blank">View Repository</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div id="carouselWeather" class="carousel slide">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselWeather" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselWeather" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselWeather" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="./images/weather1.png" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="./images/weather2.png" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="./images/weather3.png" class="d-block w-100" alt="...">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselWeather" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselWeather" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+
+
+		<!-- To-Do List Carousel -->
+		<div class="card mb-3 container-fluid" style="max-width: 1240px;">
+			<div class="row g-0">
+				<div class="col-md-6">
+					<div id="carouselTodo" class="carousel slide">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselTodo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselTodo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselTodo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="./images/Todo1.png" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="./images/Todo3.png" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="./images/Todo4.png" class="d-block w-100" alt="...">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselTodo" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselTodo" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="card-body">
+						<h5 class="card-title">To-Do List Application</h5>
+						<p class="card-text">I developed a basic To-Do List application using Django and Python. The application allows users to sign up, register, and log in. On the home page, users can list tasks they need to complete, with the option to edit their entries as needed.</p>
+
+						<div class="mb-4">
+							<h6 class="font-weight-bold mt-3">Technologies used:</h6>
+							<span class="badge">Python</span>
+							<span class="badge">Django</span>
+						</div>
+
+						<div class="d-flex gap-3">
+							<a href="https://github.com/jmspangilinan/todoApplication" class="btn btn-secondary" target="_blank">View Repository</a>
+					    </div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</section>
+
+
+		<!-- PROJECT SAMPLE END -->
+
+
+
+
+
 		<!-- PEEK OF LIFE - START -->
 
-		<section id="peek" class="peek container-fluid">
+		<section id="peek" class="peek container-fluid pt-4">
 
 			<section id="peek-container" class="">
 
 				<section class="" >
-					<div class="row p-3 ">
+					<div class="row p-3 ">	
 
 
 						<h2 id="skilltools" class="mb-4 p-2 text-center">PEEK INTO MY LIFE</h2>
@@ -406,7 +591,7 @@
 
 				<hr class="border-light">
 				<div class="text-center">
-					<p class="mb-0">&copy; 2024 JM Pangilinan . All rights reservedddd.</p>
+					<p class="mb-0">&copy; 2024 JM Pangilinan . All rights reserved.</p>
 				</div>
 			</div>
 		</footer>
