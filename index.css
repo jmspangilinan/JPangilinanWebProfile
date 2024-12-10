@@ -97,6 +97,12 @@ body{
 	color: white;
 }
 
+#graphics{
+	background-color: gray;
+	border-radius: 10px;
+	color: white;
+}
+
 /*  WORK EXPERIENCE END   */
 
 #peek-container{
